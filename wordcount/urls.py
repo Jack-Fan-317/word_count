@@ -21,4 +21,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', function.home),    # 主页
     path('count/', function.count),
+    path('about/', function.about),
 ]
